@@ -1,0 +1,19 @@
+{
+  "name": "brige-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vadimchesh/Bridge.git"
+  },
+  "author": "vadzim lindo, <vadimlindo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vadimchesh/Bridge/issues"
+  },
+  "homepage": "https://github.com/Vadimchesh/Bridge#readme"
+}
