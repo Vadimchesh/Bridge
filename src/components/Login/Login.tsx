@@ -11,6 +11,7 @@ import {
 import MuiAlert from '@material-ui/lab/Alert';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import { useHistory } from 'react-router-dom';
+import { passwordDB } from '../../models/common';
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -54,7 +55,7 @@ const Login = () => {
 
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    login === 'admin' && password === '123456'
+    login === 'admin' && password === passwordDB
       ? sucsessLogin()
       : setError('Имя пользователя или пароль введены не верно');
   }

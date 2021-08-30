@@ -1,3 +1,3 @@
 export const REQUESTS = {
-  refreshDesk: 'l5omvkuwcgd1',
+  refreshDesk: '6nksch1duxyu',
 };

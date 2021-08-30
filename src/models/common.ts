@@ -8,7 +8,9 @@ export interface IBalance {
   count: number;
   newGame: boolean;
   bid: string;
-  inc: () => void;
+  win?: boolean;
+  gain: () => void;
+  loosing: () => void;
   startGame: () => void;
   changeBid: (e: string) => void;
 }
@@ -26,3 +28,5 @@ export interface IRespons {
   deck_id: string;
   remaining: number;
 }
+
+export const passwordDB = '123456';
